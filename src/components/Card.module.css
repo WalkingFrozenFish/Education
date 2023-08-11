@@ -1,0 +1,120 @@
+.card {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    position: relative;
+    transition: .3s;
+
+    margin: 20px;
+}
+
+.card:hover {
+    transition: .3s;
+    box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.previewImage {
+    height: 208px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 27px;
+}
+
+.type {
+    padding: 4px 24px;
+    background-color: #4586D6;
+    border-radius: 8px;
+    flex-grow: 0;
+    color: #FFF;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: ABeeZee, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: fit-content;
+}
+
+.title {
+    color: #1C3554;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0 0 8px 0;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.author {
+    color: #F72585;
+    font-family: ABeeZee, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 12px 0;
+    text-align: left;
+    width: fit-content;
+}
+
+.ratingBlock {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stars {
+    margin-right: 8px;
+}
+
+.star {
+    width: 16px;
+    height: 16px;
+}
+
+.reviewCount {
+    color: #808080;
+    font-family: ABeeZee, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.priceBlock {
+    display: flex;
+    align-items: baseline;
+}
+
+.oldPrice {
+    color: #CCC;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-right: 8px;
+    text-decoration: line-through;
+}
+
+.newPrice {
+    color: #1C3554;
+    font-family: Rubik, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
